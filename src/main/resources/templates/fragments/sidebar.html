@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<nav class="sidebar sidebar-open" th:fragment="nav-sidebar">
+    <ul class="list-group">
+        <a class="list-group-item list-group-item-action" href="/">
+             <h5><i class="oi oi-home"></i> <span> Home</span></h5>
+        </a>
+        <li class="list-group-item  bg-dark border-dark active"><span class="nav-item">
+            <i class="oi oi-list"></i>
+            <span> Listagens </span>
+        </span></li>
+        <a class="list-group-item list-group-item-action " href="/usuarios/listar"> <i class="oi oi-people"></i>
+            <span> Usuarios </span>
+        </a>
+        <a class="list-group-item list-group-item-action " href="/cidades/listar"> <i class="oi oi-key"></i>
+            <span> Cidades </span>
+        </a>
+        <a class="list-group-item list-group-item-action " href="/estados/listar"> <i class="oi oi-globe"></i>
+            <span> Estados </span>
+        </a>
+        <li class="list-group-item  bg-dark border-dark active"><span class="nav-item">
+            <i class="oi oi-list"></i>
+            <span> Cadastros </span>
+        </span></li>
+        <a class="list-group-item list-group-item-action " href="/usuarios/cadastrar"> <i class="oi oi-people"></i>
+            <span> Usuarios </span>
+        </a>
+        <a class="list-group-item list-group-item-action " href="/cidades/cadastrar"> <i class="oi oi-key"></i>
+            <span> Cidades </span>
+        </a>
+        <a class="list-group-item list-group-item-action " href="/estados/cadastrar"> <i class="oi oi-globe"></i>
+            <span> Estados </span>
+        </a>
+    </ul>
+
+
+</nav>
+</body>
+</html>
